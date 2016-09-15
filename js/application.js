@@ -4,7 +4,7 @@
 angular.module('acs', ['acs.filters', 'acs.services', 'acs.directives', 'acs.controllers', 'ngRoute', 'ui.bootstrap', 'ngTable']).
 config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider) {
 
-    $routeProvider.when('/home', {
+    $routeProvider.when('/Home', {
         controller: 'home',
         templateUrl: 'partials/home.html'
     });
